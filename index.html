@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 id= "title"></h1> Game Survey</h1>
+    <p id= "description">this survey is to learn about you as a gamer.</p>
+    <form id= "survey-form">
+   <label for="name" id="name-label">Name</label>
+    <input type="text" id="name" placeholder="You name here." required>
+
+<label for="email" id="email-label">Email</label>
+    <input type="email" id="email" placeholder="Your email">
+<label for="number" id="number-label">Age</label>
+    <input type="number" id="number" min= "13" max="100" placeholder="Your age" required>
+
+    <p class="question"> What is your favorite type of game?</p>
+    <select>
+<option value="action">Action</option>
+<option value="adventure">Adventure</option>
+<option value="racing">Racing</option>
+<option value="shooting">Shooting</option>
+<option value="puzzle">Puzzle</option>
+</select>
+
+<p class= "question">Do you consider yourself a gamer?</p>
+
+<input type="radio" id="yes" value="yes" name="yesno">
+<label for= "yes">Yes</label>
+
+<input type="radio" id="no" value="no" name="yesno">
+<label for= "no">No</label>
+
+<p class="question"> What do you play on?</p>
+
+
+<input id="checkbox" type="checkbox" name="PS4/PS5" value="PS4/PS5">
+<label for="checkbox">PS4/PS5</label>
+<input id="checkbox" type="checkbox" name="Xbox One/X|S" value="Xbox One/X|S">
+<label for="checkbox">Xbox One/X|S</label>
+<input id="checkbox" type="checkbox" name="Switch" value="Switch">
+<label for="checkbox">Switch</label>
+<input id="checkbox" type="checkbox" name="PC" value="PC">
+<label for="checkbox">PC</label>
+<input id="checkbox" type="checkbox" name="Phone" value="Phone">
+<label for="checkbox">Phone/Tablet</label><br>
+
+
+<label for="textarea">Additional comments</label>
+<textarea rows="4" cols="100%" id="comment" >Free your mind.</textarea>
+
+<button type="submit" id="submit">Submit</button>
+</form>
+</body>
+</html>
